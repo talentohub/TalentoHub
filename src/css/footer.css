@@ -16,11 +16,13 @@
 
 @media (max-width: 768px) {
   .redes-sociales {
-    display: flex; /* Activa el modelo de diseño flex */
-    justify-content: center; /* Centra horizontalmente los elementos dentro del contenedor */
+    display: flex;
+    justify-content: center;
   }
 
   .icono-social2 {
-    margin-right: 20px; /* Agrega margen derecho entre los iconos (opcional) */
+    margin-right: 0px;
+    justify-content: center !important;
+    margin-left: 25px;
   }
 }
