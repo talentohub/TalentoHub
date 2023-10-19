@@ -9,7 +9,7 @@
   .card:hover {
     transform: scale(1.05); /* Otra opción: cambiar el tamaño de la tarjeta */
     box-shadow: 0 6px 2px rgba(0, 0, 0, 0.2); /* Cambia la sombra de la tarjeta */
-    background-color: #cfcfcf; /* Cambia el color de fondo de la tarjeta */
+    background-color: #c8c8c8; /* Cambia el color de fondo de la tarjeta */
   }
 
   .card-body{
