@@ -1,6 +1,6 @@
 /* Estilos para el botón mágico en pantallas grandes */
 .botonmagico {
-  background-color:#F0F0F0;
+  background-color:#F0D422;
   cursor: pointer;
   border: none;
   padding: 20px 30px; /* Ajusta el tamaño del botón aquí para pantallas grandes */
@@ -40,10 +40,13 @@
   }
 }
 
-/* Estilos para el botón mágico en pantallas pequeñas */
 @media (max-width: 768px) {
   .botonmagico {
-    padding: 10px 15px; /* Ajusta el tamaño del botón aquí para pantallas pequeñas */
-    font-size: 12px; /* Ajusta el tamaño del texto aquí para pantallas pequeñas */
+    padding: 8px 12px;
+    font-size: 10px;
+    /* Ajustar la posición del botón en pantallas pequeñas: */
+    position: relative;
+    top: 23px; /* Mover el botón hacia abajo */
+    left: 10px; /* Asegurarse de que no haya desplazamiento lateral */
   }
 }

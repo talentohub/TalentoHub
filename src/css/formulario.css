@@ -36,7 +36,7 @@
   
   /* Estilo para el botón en estado hover (cuando el mouse está sobre el botón) */
   .btn-success:hover {
-    background-color: #fbfb1e; /* Cambia el color de fondo en hover */
+    background-color: #F0D422; /* Cambia el color de fondo en hover */
     color: #000000;
   }
   
@@ -51,7 +51,7 @@
   
   /* Estilo para los iconos de redes sociales en estado hover (cuando el mouse está sobre el icono) */
   .icono-social:hover {
-    color: #fbfb1e; /* Cambia el color del icono en hover */
+    color: #F0D422; /* Cambia el color del icono en hover */
   }
 
   .logoformulario {
@@ -69,5 +69,5 @@
     background-color: #4a4a4a;
   }
   .input-group-text:hover {
-    background-color: #fbfb1e;
+    background-color: #F0D422;
   }

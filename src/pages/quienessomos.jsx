@@ -2,23 +2,27 @@ import Navbar from "../componentes/navbar";
 import Footer from "../componentes/footer";
 import CarrucelPaginas from "../componentes/carrucelpaginas";
 import "../css/quienessomos.css";
-import logo from "../imagenes/TH.png";
+import TextAnimation from "../componentes/textanimation";
+
 
 const Quienessomos = () => {
   return (
     <div className="main-container">
       <Navbar />
+
       <div className="main-content">
         <CarrucelPaginas
-          imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697729611/Sin_t%C3%ADtulo-1_1_zzkfbi.png"
+          imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697736653/Sin_t%C3%ADtulo-1_2_zp79i7.png"
         />
       </div>
       
       <div className="main-content">
         <CarrucelPaginas
-          imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697724664/Sin_t%C3%ADtulo-2_fcdhze.png"
+          imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697736311/wepik-export-20231019172444sPod_qdp7nn.png"
         />
       </div>
+<TextAnimation/>
+
       <Footer />
     </div>
   );

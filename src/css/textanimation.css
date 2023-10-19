@@ -1,0 +1,44 @@
+/* textanimation2.css */
+.text-animation-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  background-color: #000000;
+  overflow: hidden;
+  position: relative; /* Importante para que el texto pueda rebobinar */
+  border: 0;
+}
+
+.animated-text {
+  font-size: 36px;
+  color: transparent; /* Hace que el texto sea transparente */
+  -webkit-text-stroke: 1px #f1e20f; /* Añade un contorno blanco de 1px alrededor del texto */
+  position: absolute;
+  white-space: nowrap;
+}
+
+.animated-word {
+  margin-right: 90px; /* Espacio entre palabras */
+}
+
+.animated-text:first-child {
+  animation: scroll-in 35s linear infinite;
+  animation-delay: 0s; /* Sin retraso inicial para el primer bloque */
+  transform: translateX(100%); /* Comienza desde la derecha */
+}
+
+.animated-text:last-child {
+  animation: scroll-in 35s linear infinite;
+  animation-delay: 0s; /* Sin retraso inicial para el segundo bloque */
+  transform: translateX(100%); /* Comienza desde la derecha */
+}
+
+@keyframes scroll-in {
+  0% {
+    transform: translateX(100%); /* Inicia desde la derecha */
+  }
+  100% {
+    transform: translateX(-100%); /* Termina en la izquierda */
+  }
+}
