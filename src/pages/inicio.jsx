@@ -14,7 +14,7 @@ const Inicio = () => {
       <Navbar />
       <div className="main-content">
        <CarrucelPaginas
-       imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697645891/wepik-export-20231018113359pEYI_eyljme.png"/>
+       imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697736311/wepik-export-20231019171222oGzG_husbkj.png"/>
         
         
        <div className="Texto text-center mt-5">

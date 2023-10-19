@@ -8,7 +8,7 @@ const CarruselContactanos = () => {
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="4000">
             <img
-              src="https://res.cloudinary.com/dcwloh062/image/upload/v1697420092/wepik-export-20231016013230FczD_ecooor.png"
+              src="https://res.cloudinary.com/dcwloh062/image/upload/v1697736375/wepik-export-20231019172050Mjn6_cwayqj.png"
               className="d-block w-100"
               alt="..."
             />
