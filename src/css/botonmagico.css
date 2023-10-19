@@ -1,6 +1,6 @@
 /* Estilos para el botón mágico en pantallas grandes */
 .botonmagico {
-  background-color:#F0D422;
+  background-color: #F0D422;
   cursor: pointer;
   border: none;
   padding: 20px 30px; /* Ajusta el tamaño del botón aquí para pantallas grandes */
@@ -11,6 +11,9 @@
   border-radius: 10px;
   text-decoration: none;
   font-family: 'Poppins, sans-serif';
+  top: 110px;
+  left: 110px;
+  
 }
 
 .botonmagico::before {
@@ -40,7 +43,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024pxpx) {
   .botonmagico {
     padding: 8px 12px;
     font-size: 10px;
