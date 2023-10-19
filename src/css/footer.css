@@ -1,0 +1,25 @@
+#logo {
+    filter: brightness(0) invert(1); /* Invertir colores de la imagen (opcional) */
+   
+   
+}
+.hecho{
+  margin-left: 20px;
+}
+
+.icono-social2{
+  margin: 10px;
+ color: aliceblue;
+ width: 40px;
+ height: 33px;
+}
+
+@media (max-width: 768px) {
+  .icono-social2 {
+   
+   margin-right: 10px;
+  
+   
+   
+  }
+}

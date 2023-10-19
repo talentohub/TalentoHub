@@ -1,0 +1,12 @@
+.carousel {
+    
+    position: relative; /* Asegúrate de que no tenga un valor de z-index alto */
+  }
+ /* En tu archivo carrucel.css o en el CSS que estés usando */
+
+.carousel-inner img {
+  width: 100%; /* Ajusta el ancho al 100% del contenedor */
+  height: 100%; /* Establece la altura deseada (ajusta este valor según tus necesidades) */
+  margin-bottom: 70px;
+}
+

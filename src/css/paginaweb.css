@@ -1,0 +1,10 @@
+.tituloweb{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: rgb(2, 2, 2);
+    text-align: center; 
+    font-size: 40px;
+}

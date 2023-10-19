@@ -1,0 +1,11 @@
+.promociones {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: aliceblue;
+    text-align: center; 
+    font-size: 40px;
+}

@@ -1,0 +1,22 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Establece la altura mínima de la página al 100% del alto de la ventana */
+  }
+  
+  .main-content {
+    flex: 1; /* Hace que el contenido ocupe el espacio restante */
+  }
+  .spacer {
+    height: 110px; /* Establece la altura deseada para el espacio en pantalla pequeña */
+    background-color: black; /* Color de fondo para el espacio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logoextra {
+    max-width: 70%; /* La imagen se ajustará al ancho del contenedor */
+    max-height: 70%; /* La imagen se ajustará al alto del contenedor */
+    filter: brightness(0) invert(1); /* Invertir colores de la imagen (opcional) */
+  }
