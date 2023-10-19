@@ -3,7 +3,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 80px;
+  height: 120px;
   background-color: #000000;
   overflow: hidden;
   position: relative; /* Importante para que el texto pueda rebobinar */
@@ -11,7 +11,7 @@
 }
 
 .animated-text {
-  font-size: 36px;
+  font-size: 38px;
   color: transparent; /* Hace que el texto sea transparente */
   -webkit-text-stroke: 1px #f1e20f; /* Añade un contorno blanco de 1px alrededor del texto */
   position: absolute;
@@ -23,9 +23,9 @@
 }
 
 .animated-text:first-child {
-  animation: scroll-in 35s linear infinite;
-  animation-delay: 0s; /* Sin retraso inicial para el primer bloque */
-  transform: translateX(100%); /* Comienza desde la derecha */
+  animation: scroll-in 10s linear infinite; /* Reduje la duración de la animación a 20 segundos */
+  animation-delay: 1s; /* Agregué un retraso de 2 segundos para comenzar después de la carga */
+  transform: translateX(100%);
 }
 
 .animated-text:last-child {
