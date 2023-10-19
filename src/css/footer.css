@@ -21,8 +21,8 @@
   }
 
   .icono-social2 {
-    margin-right: 0px;
-    justify-content: center !important;
-    margin-left: 25px;
+
+    width: 30px; /* Reduzca el tamaño de los iconos */
+    height: 25px;
   }
 }
