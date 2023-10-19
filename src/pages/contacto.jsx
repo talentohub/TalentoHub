@@ -5,7 +5,6 @@ import Formulario from "../componentes/formulario";
 import logo from "../imagenes/TH.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importa FontAwesome
 import { faFacebook, faLinkedin, faInstagram, faGithub, faWhatsapp,faTiktok } from '@fortawesome/free-brands-svg-icons'; // Importa los iconos de redes sociales
-import "../css/Contacto.css";
 
 const Contacto = () => {
   return (
