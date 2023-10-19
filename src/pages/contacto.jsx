@@ -5,7 +5,7 @@ import Formulario from "../componentes/formulario";
 import logo from "../imagenes/TH.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importa FontAwesome
 import { faFacebook, faLinkedin, faInstagram, faGithub, faWhatsapp,faTiktok } from '@fortawesome/free-brands-svg-icons'; // Importa los iconos de redes sociales
-
+import "../css/formulario.css"
 const Contacto = () => {
   return (
     <>
@@ -22,7 +22,7 @@ const Contacto = () => {
           <img className="logoformulario" src={logo} alt="" />
 
           <div className="redes-sociales">
-            <a href="https://www.facebook.com/talentoHuB.latam/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/talentoHuB.latam/" target="_blank" rel="noopener noreferrer" >
               <FontAwesomeIcon icon={faFacebook} className="icono-social" />
             </a>
             <a href="URL_de_Tu_Twitter" target="_blank" rel="noopener noreferrer">

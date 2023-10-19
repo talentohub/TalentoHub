@@ -54,3 +54,20 @@
     color: #fbfb1e; /* Cambia el color del icono en hover */
   }
 
+  .logoformulario {
+    max-width: 40%; /* Ajusta el ancho máximo de la imagen al 50% del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+  
+  }
+  
+  .input-group-text {
+   
+    border: 0;
+    color: #fafafa;
+    background-color: #4a4a4a;
+  }
+  .input-group-text:hover {
+    background-color: #fbfb1e;
+  }
