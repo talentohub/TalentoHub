@@ -23,13 +23,13 @@
 }
 
 .animated-text:first-child {
-  animation: scroll-in 10s linear infinite; /* Reduje la duración de la animación a 20 segundos */
-  animation-delay: 1s; /* Agregué un retraso de 2 segundos para comenzar después de la carga */
+  animation: scroll-in 40s linear infinite; /* Reduje la duración de la animación a 20 segundos */
+  animation-delay: 0s; /* Agregué un retraso de 2 segundos para comenzar después de la carga */
   transform: translateX(100%);
 }
 
 .animated-text:last-child {
-  animation: scroll-in 35s linear infinite;
+  animation: scroll-in 50s linear infinite;
   animation-delay: 0s; /* Sin retraso inicial para el segundo bloque */
   transform: translateX(100%); /* Comienza desde la derecha */
 }
