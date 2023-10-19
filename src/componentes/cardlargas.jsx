@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import '../css/CardLargas.css';
+import '../css/cardlargas.css';
 
 const CardLargas = ({ imagen, texto1 }) => {
   return (

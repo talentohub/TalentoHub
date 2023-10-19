@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "../css/Cardconbotones.css";
+import "../css/cardconbotones.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faWhatsapp} from "@fortawesome/free-brands-svg-icons";
 
