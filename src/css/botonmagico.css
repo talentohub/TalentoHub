@@ -43,13 +43,13 @@
   }
 }
 
-@media (max-width: 1024pxpx) {
+@media (max-width: 1024px) {
   .botonmagico {
     padding: 8px 12px;
     font-size: 10px;
-    /* Ajustar la posición del botón en pantallas pequeñas: */
+    /* Ajustar la posición del botón en pantallas medianas: */
     position: relative;
-    top: 23px; /* Mover el botón hacia abajo */
-    left: 10px; /* Asegurarse de que no haya desplazamiento lateral */
+    top: 22px; /* Mover el botón hacia abajo */
+    left: 5px; /* Ajusta este valor según lo necesites para evitar el desplazamiento lateral */
   }
 }
