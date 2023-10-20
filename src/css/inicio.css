@@ -1,1 +1,19 @@
-
+/* Estilos para pantallas grandes */
+.Texto h1 {
+    font-size: 50px;
+  }
+  
+  .Texto h5 {
+    font-size: 30px;
+  }
+  
+  /* Media query para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .Texto h1 {
+      font-size: 30px; /* Tamaño de fuente más pequeño para h1 en pantallas pequeñas */
+    }
+  
+    .Texto h5 {
+      font-size: 14px; /* Tamaño de fuente más pequeño para h5 en pantallas pequeñas */
+    }
+  }

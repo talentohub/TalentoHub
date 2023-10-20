@@ -5,7 +5,7 @@ import Footer from "../componentes/footer";
 import CarruselContactanos from "../componentes/carruselContactanos";
 import "../css/inicio.css"
 import CarrucelPaginas from "../componentes/carrucelpaginas";
-
+import "../css/inicio.css"
 
 
 const Inicio = () => {
@@ -17,17 +17,17 @@ const Inicio = () => {
        imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697736311/wepik-export-20231019171222oGzG_husbkj.png"/>
         
         
-       <div className="Texto text-center mt-5">
-        <h1 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 800, fontSize: '50px' }}>
-        ¿QUÉ SOLUCIONES OFRECEMOS?
-      </h1>
-      <h5 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 450, fontSize: '30px' }}>
-        Queremos que seas el mejor!
-      </h5>
-      <h5 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400,fontSize: '25px' }}>
-        Estamos enfocados en entregar soluciones personalizadas y resultados de calidad.
-      </h5>
-      </div>
+        <div className="Texto text-center mt-5">
+  <h1 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 800 }}>
+    ¿QUÉ SOLUCIONES OFRECEMOS?
+  </h1>
+  <h5 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 450 }}>
+    Queremos que seas el mejor!
+  </h5>
+  <h5 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400 }}>
+    Estamos enfocados en entregar soluciones personalizadas y resultados de calidad.
+  </h5>
+</div>
       <br />
       </div>
       <div className="container">
