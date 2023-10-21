@@ -23,17 +23,24 @@
   .centered-text {
     text-align:start; /* Justificar el texto */
     text-align: center; /* Centrar la última línea si es necesario */
-    
+   
   }
 
   @media (max-width: 768px) {
     .custom-heading {
-      font-size: 60px; /* Tamaño de fuente en pantallas más pequeñas */
+      font-size: 50px; /* Tamaño de fuente en pantallas más pequeñas */
     }
     @media (max-width: 768px) {
       .custom-heading::after {
         bottom: 3px; /* Ajustar la distancia del subrayado en pantallas más pequeñas */
-        border-bottom: 6px solid#F0D422; /* Estilo de subrayado */
+        border-bottom: 5px solid#F0D422; /* Estilo de subrayado */
+      }
+      .centered-text {
+       margin: 40px;
+       
       }
     }
+    
+     
+    
   }
