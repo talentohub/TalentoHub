@@ -41,7 +41,7 @@ const Inicio = () => {
               texto1={
                 "Diseñamos sitios web atractivos que cuentan tu historia y fomentan la interacción, adaptándonos a la evolución de tu marca."
               }
-              texto2={""}
+              
               enlace={"paginasweb"}
             />
           </div>
@@ -54,7 +54,7 @@ const Inicio = () => {
               texto1={
                 "A través de estrategias publicitarias ADS, creamos conexiones significativas que generan clientes y conversiones."
               }
-              texto2={""}
+             
               enlace={"publicidad"}
             />
           </div>
@@ -64,11 +64,11 @@ const Inicio = () => {
               imagen={
                 "https://res.cloudinary.com/dcwloh062/image/upload/v1697081456/Growing-cuate_z9snqs.png"
               }
-              titulo={"Crecimiento de marca"}
+              titulo={"Crecimiento"}
               texto1={
                 "Fomentamos el crecimiento auténtico de tu marca, atrayendo seguidores leales y creando experiencias excepcionales."
               }
-              texto2={""}
+            
               enlace={"crecimientodemarca"}
             />
           </div>
@@ -81,7 +81,7 @@ const Inicio = () => {
               texto1={
                 "En redes sociales, creamos comunidades, conversaciones y embajadores de marca."
               }
-              texto2={""}
+              
               enlace={"redessociales"}
             />
           </div>

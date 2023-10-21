@@ -4,35 +4,33 @@
   justify-content: flex-start;
   align-items: center;
   height: 120px;
-  background-color: #000000;
+  background-color: rgba(243, 243, 243, 0.201);
   overflow: hidden;
-  position: relative; /* Importante para que el texto pueda rebobinar */
+  position: relative;
   border: 0;
+  margin-bottom: 30px;
 }
 
 .animated-text {
-  font-size: 38px;
-  color: transparent; /* Hace que el texto sea transparente */
-  -webkit-text-stroke: 1px #f1e20f; /* Añade un contorno blanco de 1px alrededor del texto */
+  font-size: 88px;
+  color: rgba(255, 252, 72, 0.008);
+  -webkit-text-stroke: 2px #000000;
   position: absolute;
   white-space: nowrap;
+  animation: scroll-in 120s linear infinite; /* Reduje la duración de la animación a 60 segundos */
+  transform: translateX(100%);
 }
 
 .animated-word {
   margin-right: 90px; /* Espacio entre palabras */
 }
 
-.animated-text:first-child {
-  animation: scroll-in 40s linear infinite; /* Reduje la duración de la animación a 20 segundos */
-  animation-delay: 0s; /* Agregué un retraso de 2 segundos para comenzar después de la carga */
-  transform: translateX(100%);
+@media (max-width: 768px) {
+  .animated-text {
+    font-size: 40px; /* Tamaño de fuente en pantallas pequeñas */
+  }
 }
 
-.animated-text:last-child {
-  animation: scroll-in 50s linear infinite;
-  animation-delay: 0s; /* Sin retraso inicial para el segundo bloque */
-  transform: translateX(100%); /* Comienza desde la derecha */
-}
 
 @keyframes scroll-in {
   0% {

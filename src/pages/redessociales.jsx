@@ -23,7 +23,7 @@ const Redessociales = () => {
                 imagen={
                   "https://res.cloudinary.com/dcwloh062/image/upload/v1697404365/Online_world-bro_okywew.png"
                 }
-                titulo={"Plan Basico"}
+                titulo={"Plan Básico"}
                 informacion={[
                   "• Creación y optimización de perfiles en las principales redes sociales ",
                   "• Desarrollo de una estrategia de contenido inicial ",

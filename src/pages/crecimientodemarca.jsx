@@ -21,7 +21,7 @@ const crecimientodemarca = () => {
             <div className="col-11 col-md-4">
             <Cardconbotones
               imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Internet_on_the_go-amico_ctkuim.png"}
-              titulo={"Plan Basico"}
+              titulo={"Plan Básico"}
               informacion={[
                 "• Creación y desarrollo de la identidad visual de la marca ",
                 "• Desarrollo de una estrategia básica de marketing digital ",

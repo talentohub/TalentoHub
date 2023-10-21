@@ -23,7 +23,7 @@ const Publicidad = () => {
                 imagen={
                   "https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/brand_loyalty-pana_tlithf.png"
                 }
-                titulo={"Plan Basico"}
+                titulo={"Plan Básico"}
                 informacion={[
                   "• Investigación básica de palabras clave para la industria",
                   "• Creación y gestión de una campaña en una plataforma de publicidad (Google Ads o Facebook Ads)",

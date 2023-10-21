@@ -21,7 +21,7 @@ const Paginasweb = () => {
               imagen={
                 "https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Website_Creator-rafiki_ksaky1.png"
               }
-              titulo={"Plan Basico"}
+              titulo={"Plan Básico"}
               informacion={[
                 "• Creación de una página web atractiva y funcional ",
                 "• Menú adaptable ",

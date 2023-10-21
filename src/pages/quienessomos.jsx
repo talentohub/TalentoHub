@@ -3,7 +3,7 @@ import Footer from "../componentes/footer";
 import CarrucelPaginas from "../componentes/carrucelpaginas";
 import "../css/quienessomos.css";
 import TextAnimation from "../componentes/textanimation";
-
+import Carddemo from "../componentes/carddemo";
 
 const Quienessomos = () => {
   return (
@@ -12,20 +12,62 @@ const Quienessomos = () => {
 
       <div className="main-content">
         <CarrucelPaginas
-          imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697769543/Sin_t%C3%ADtulo-1_3_ycts0g.png"
+          imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697914129/wepik-export-20231021184812kvoP_xtlrjw.png "
         />
       </div>
-      
-      <div className="main-content">
-        <CarrucelPaginas
-          imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697736311/wepik-export-20231019172444sPod_qdp7nn.png"
-        />
+
+      <TextAnimation />
+
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-md-6">
+          <h1 className="custom-heading">TalentoHuB</h1>
+          <h3 className="centered-text">Somos un Equipo Apasionado de <strong>desarrolladores</strong>, <strong>diseñadores</strong> y <strong>expertos en marketing</strong>. No solo creamos <strong>Soluciones innovadoras</strong>, también construimos conexiones significativas. Únete a nuestra comunidad, donde tu visión se convierte en nuestra inspiración.</h3>
+
+
+          </div>
+          <div className="col-12 col-md-6">
+            <div className="row">
+              <div className="col-6">
+              <Carddemo
+              imagen={
+                "https://res.cloudinary.com/dcwloh062/image/upload/v1697838185/tito_yh7flr.png "
+              }
+            
+              texto2={
+                "Co/Fundador Talento Hub"
+              }
+              texto3={
+                "Héctor Silva"
+              }
+             
+             
+            />
+              </div>
+              <div className="col-6">
+              <Carddemo
+              imagen={
+                "https://res.cloudinary.com/dcwloh062/image/upload/v1697838185/paz_armpwu.png "
+              }
+            
+              texto2={
+                "Co/Fundadora Talento Hub"
+              }
+              texto3={
+                "Paz Valenzuela"
+              }
+              enlace={""}
+            />
+              
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-<TextAnimation/>
 
       <Footer />
     </div>
   );
-}
+};
 
 export default Quienessomos;

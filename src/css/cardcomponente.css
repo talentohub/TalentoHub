@@ -19,7 +19,7 @@
   display: block;
   width: 100%;
   max-width: 450px;
-  height: 500px;
+  height: 420px;
   font-size: 20px;
   border-radius: 8px;
   box-shadow: 0 16px 60px rgba(0, 0, 0, 0.3);
@@ -106,7 +106,7 @@
 .card-new:hover .card__image-new img {
   -webkit-transform: scale(1, 1);
   transform: scale(1, 1);
-  opacity: .2;
+  opacity: .1;
 }
 
 .card__header-new {
@@ -156,7 +156,7 @@
 
 .card__name-new {
   color: rgb(0, 0, 0);
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   background-color:#F0D422;
   border-radius: 5px;
@@ -165,7 +165,7 @@
 }
 
 .card-new:hover .card__name-new {
-  background: -webkit-linear-gradient(white, #ffffff);
+  background: -webkit-linear-gradient(F0D422, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -175,7 +175,34 @@
   align-self: center;
   justify-self: center;
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  color: transparent;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  
+}
+.card__job-new2{
+  margin: 2px;
+  align-self: center;
+  justify-self: center;
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  color:transparent;
+  -webkit-transition:all 1s ease;
+  transition: all 1s ease;
+  
+}
+.card__job-new3{
+
+  margin: 2px;
+  align-self: center;
+  justify-self: center;
+  display: inline-block;
+  font-size: 18px;
   text-align: center;
   letter-spacing: 0.1rem;
   color:transparent;
@@ -183,9 +210,28 @@
   transition: all 1s ease;
 }
 
+.card-new:hover .card__job-new3 {
+  color: rgb(255, 255, 255);
+  transform: translateY(200px); /* Mueve el elemento hacia abajo */
+  font-size: 20px;
+
+
+}
+.card-new:hover .card__job-new2 {
+  color: rgb(233, 255, 65);
+  transform: translateY(200px); /* Mueve el elemento hacia abajo */
+  font-size: 10px;
+
+
+}
+
 .card-new:hover .card__job-new {
   color: rgb(255, 255, 255);
+  
+  
+  
 }
+
 
 
 .enlacecard {
