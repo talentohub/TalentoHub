@@ -28,7 +28,7 @@ const Quienessomos = () => {
           </div>
           <div className="col-12 col-md-6">
             <div className="row">
-              <div className="col-6">
+              <div className="col-6 ">
               <Carddemo
               imagen={
                 "https://res.cloudinary.com/dcwloh062/image/upload/v1697838185/tito_yh7flr.png "
@@ -40,11 +40,11 @@ const Quienessomos = () => {
               texto3={
                 "Héctor Silva"
               }
-             
+              enlace={"javascript:void(0)" }
              
             />
               </div>
-              <div className="col-6">
+              <div className="col-6 ">
               <Carddemo
               imagen={
                 "https://res.cloudinary.com/dcwloh062/image/upload/v1697838185/paz_armpwu.png "
@@ -56,7 +56,7 @@ const Quienessomos = () => {
               texto3={
                 "Paz Valenzuela"
               }
-              enlace={""}
+              enlace={"javascript:void(0)" }
             />
               
               </div>

@@ -33,7 +33,7 @@
     @media (max-width: 768px) {
       .custom-heading::after {
         bottom: 3px; /* Ajustar la distancia del subrayado en pantallas más pequeñas */
-        border-bottom: 10px solid#F0D422; /* Estilo de subrayado */
+        border-bottom: 6px solid#F0D422; /* Estilo de subrayado */
       }
     }
   }
