@@ -4,16 +4,21 @@ import CarrucelPaginas from "../componentes/carrucelpaginas";
 import "../css/quienessomos.css";
 import TextAnimation from "../componentes/textanimation";
 import Carddemo from "../componentes/carddemo";
+import { useDarkMode } from "../context/DarkModeContext";
 
 const Quienessomos = () => {
+
+  const { isDarkMode } = useDarkMode();
+  const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1697838185/tito_yh7flr.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1697838185/paz_armpwu.png'; // Reemplaza con la ruta correcta
+
   return (
+    <div className={isDarkMode ? 'dark-mode' : 'light-mode'}>
     <div className="main-container">
       <Navbar />
 
       <div className="main-content">
-        <CarrucelPaginas
-          imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697914129/wepik-export-20231021184812kvoP_xtlrjw.png "
-        />
+      <CarrucelPaginas imagenClaro={imagenClaro} imagenOscuro={imagenOscuro} />
       </div>
 
       <TextAnimation />
@@ -67,6 +72,7 @@ const Quienessomos = () => {
 
       <Footer />
     </div>
+      </div>
   );
 };
 

@@ -71,3 +71,34 @@
   .input-group-text:hover {
     background-color: #F0D422;
   }
+
+  .dark-mode .contenedorformulario {
+    background-color: black;
+    /* Otros estilos para el modo oscuro */
+  }
+  
+  .dark-mode .icono-social {
+    color: white;
+    /* Otros estilos para el modo oscuro */
+  }
+  .dark-mode .logoformulario {
+    filter: brightness(0) invert(1);
+    /* El filtro `brightness(0)` hace que toda la imagen sea negra (0% de brillo).
+       `invert(1)` invierte los colores, lo que hará que la imagen se vuelva blanca. */
+  }
+  .dark-mode .contenedorformulario {
+    background-color: #000000; /* Cambia el color de fondo del contenedor en modo oscuro */
+  }
+  
+
+  .dark-mode .contenedorformulario:hover {
+    background-color: #191919; /* Cambia el color de fondo en hover */
+    
+  }
+
+  .dark-mode .contenedorformulario:hover .form-control:hover {
+    background-color: #d9d9d9; /* Cambia el color de fondo de los input a gris en hover en modo oscuro */
+  }
+  .contenedorformulario:hover .form-control:hover {
+    background-color: #d9d9d9; /* Cambia el color de fondo de los input a gris en hover en modo oscuro */
+  }

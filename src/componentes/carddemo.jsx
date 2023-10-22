@@ -10,9 +10,13 @@ const CardDemo = ({ imagen, texto1, texto2, texto3, titulo, enlace }) => {
             <button className="card__save-new js-save-new" type="button">
               <i className="fa fa-bookmark"></i>
             </button>
-            <figure className="card__image-new">
-              <img src={imagen} alt="Short description" />
-            </figure>
+            <div className="card__image-new">
+              <img
+                src={imagen}
+                alt="Short description"
+                
+              />
+            </div>
 
             <div className="card__header-new"></div>
             <div className="card__body-new">

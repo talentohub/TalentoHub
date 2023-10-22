@@ -24,6 +24,7 @@
 @media (max-width: 768px) {
   .custom-heading {
     font-size: 50px; /* Tamaño de fuente en pantallas más pequeñas */
+    text-align: center;
   }
 
   .custom-heading::after {
@@ -33,5 +34,6 @@
 
   .centered-text {
     margin: 40px; /* Añadir margen en dispositivos móviles */
+    text-align: center;
   }
 }

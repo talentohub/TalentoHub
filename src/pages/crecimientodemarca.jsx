@@ -6,15 +6,22 @@ import CardLargas from "../componentes/cardlargas";
 import Footer from "../componentes/footer";
 import CarrucelPaginas from "../componentes/carrucelpaginas";
 import CarruselContactanos from "../componentes/carruselContactanos";
+import { useDarkMode } from "../context/DarkModeContext";
 
+const Crecimientodemarca = () => {
 
-const crecimientodemarca = () => {
+  const { isDarkMode } = useDarkMode();
+  const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1697838185/tito_yh7flr.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1697838185/paz_armpwu.png'; // Reemplaza con la ruta correcta
+  const imagenClaro2= 'https://res.cloudinary.com/dcwloh062/image/upload/v1697736375/wepik-export-20231019172050Mjn6_cwayqj.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro2 = 'https://res.cloudinary.com/dcwloh062/image/upload/v1697838185/paz_armpwu.png'; // Reemplaza con la ruta correcta
+
   return (
     <>
+     <div className={isDarkMode ? 'dark-mode' : 'light-mode'}>
       <Navbar />
       <div className="main-content">
-     <CarrucelPaginas
-     imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697560371/CrecimientoMarca_kccltv.png"/>
+      <CarrucelPaginas imagenClaro={imagenClaro} imagenOscuro={imagenOscuro} />
       
         <div className="container">
           <div className="row justify-content-center">
@@ -62,7 +69,7 @@ const crecimientodemarca = () => {
   <div className="row" >
     <div className="col-12 mb-4">
       <CardLargas
-        imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697458202/wepik-export-20231016115840HNzB_ub8prt.png"
+        imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697937187/lll_yjyogh.png"
         texto1={"En la fase de diseño y desarrollo, nuestros creativos toman la iniciativa para dar vida al proyecto, fusionando la creatividad con la funcionalidad. Nos esforzamos por superar tus expectativas, personalizando cada aspecto según tus requisitos para asegurar un producto verdaderamente único"}
       />
     </div>
@@ -80,10 +87,13 @@ const crecimientodemarca = () => {
     </div>
   </div>
 </div>
-      <CarruselContactanos/>
+<CarruselContactanos
+        imagenClaro2={imagenClaro2} imagenOscuro2={imagenOscuro2}
+         />
       <Footer />
+      </div>
     </>
   );
 };
 
-export default crecimientodemarca
+export default Crecimientodemarca

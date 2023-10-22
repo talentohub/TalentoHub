@@ -1,66 +1,79 @@
-/* Estilo base de la tarjeta */
+/* Estilos base de la tarjeta */
 .card {
-    /* Establece tus estilos base aquí */
-    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
-    box-shadow: 0 6px 2px rgba(0, 0, 0, 0.2)
-  }
-  
-  /* Establece los estilos para el hover */
-  .card:hover {
-    transform: scale(1.05); /* Otra opción: cambiar el tamaño de la tarjeta */
-    box-shadow: 0 6px 2px rgba(0, 0, 0, 0.2); /* Cambia la sombra de la tarjeta */
-    background-color: #c8c8c8; /* Cambia el color de fondo de la tarjeta */
-  }
+  /* Establece tus estilos base aquí */
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  box-shadow: 0 6px 2px rgba(0, 0, 0, 0.2);
+}
 
-  .card-body{
-    height: 600px;
-    border: none; /* Elimina el borde */
-    
-    transition: box-shadow 0.3s ease; /* Agrega una transición suave al efecto de sombra */
-  
-    /* Añade un margen inferior para separar las tarjetas */
-    margin-bottom: 20px;
-  }
- 
-  .whatsapp-button {
-    display: inline-block;
-    text-decoration: none;
-    background-color: #25d366; /* Color de fondo del botón de WhatsApp */
-    color: #fff; /* Color del texto */
-    padding: 10px 20px; /* Espaciado interior del botón */
-    border-radius: 5px; /* Bordes redondeados */
-    text-align: center; /* Centrar horizontalmente el contenido */
-    transition: background-color 0.3s; 
-  }
-  
-  .whatsapp-content {
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-  }
-  
-  .whatsapp-icon {
-    font-size: 24px; 
-    margin-right: 5px; 
-  }
-  
-  .whatsapp-button:hover {
-    background-color: #128c7e;
-  }
-  @media (max-width: 1180px) {
-    .card {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .card-body {
-      /* Ajusta el tamaño del cuerpo de la tarjeta en pantallas pequeñas */
-      height: auto;
-    }
-  
-    .whatsapp-button {
-      /* Ajusta el ancho del botón en pantallas pequeñas */
-      width: 100%;
-    }
-    
-  }
+/* Establece los estilos para el hover */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 2px rgba(0, 0, 0, 0.2);
+  background-color: #c8c8c8;
+}
+
+.card-body {
+  height: 600px;
+  border: none;
+
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #25d366;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.whatsapp-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp-icon {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e;
+}
+
+/* Estilos para modo oscuro */
+.dark-mode .card {
+  background: black;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 0 6px 2px rgba(248, 247, 247, 0.948);
+}
+
+.dark-mode .card:hover {
+  background-color: rgba(216, 216, 216, 0.585);
+  color:black
+}
+/* Estilo del botón de WhatsApp en modo oscuro */
+.card.dark-mode .whatsapp-button {
+  background-color: #128c7e; /* Cambia el color de fondo del botón en modo oscuro */
+}
+
+/* Estilo del icono de WhatsApp en modo oscuro */
+.card.dark-mode .whatsapp-button .whatsapp-icon {
+  color: white; /* Cambia el color del icono de WhatsApp a blanco */
+}
+
+/* Estilo del texto del botón de WhatsApp en modo oscuro */
+.card.dark-mode .whatsapp-button span {
+  color: white; /* Cambia el color del texto del botón a blanco */
+}
+
+/* Estilo del botón de WhatsApp al hacer hover en modo oscuro */
+.card.dark-mode .whatsapp-button:hover {
+  background-color: #25d366; /* Cambia el color de fondo al hacer hover en modo oscuro */
+}

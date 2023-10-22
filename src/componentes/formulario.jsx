@@ -2,7 +2,7 @@ import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faPhone, faEnvelope, faComment } from '@fortawesome/free-solid-svg-icons';
-
+import { useDarkMode } from '../context/DarkModeContext'; // Importa el contexto de modo oscuro
 emailjs.init('iEjJ4Hc_tJX5mcHWN');
 
 const Formulario = () => {
@@ -14,6 +14,7 @@ const Formulario = () => {
     email: '',
     message: ''
   });
+  const { isDarkMode } = useDarkMode(); 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -51,7 +52,7 @@ const Formulario = () => {
   };
 
   return (
-    <form id="form" onSubmit={handleSubmit}>
+   <form id="form" onSubmit={handleSubmit} className={isDarkMode ? 'dark-mode' : ''}>
       <div className="input-group mb-3">
         <span className="input-group-text">
           <i className="fa fa-user">

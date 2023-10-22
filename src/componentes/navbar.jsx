@@ -1,10 +1,16 @@
 import "../css/navbar.css";
 import TH from "../imagenes/TH.png";
+import "../css/botonoscuro.css"
+import Botonooscuro from "../componentes/botonooscuro"
+import { useDarkMode } from "../context/DarkModeContext";
+
 
 const Navbar = () => {
+  const { isDarkMode } = useDarkMode();
+ 
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="inicio">
             <div className="logo">
@@ -12,7 +18,7 @@ const Navbar = () => {
             </div>
           </a>
           <button
-            className="navbar-toggler"
+            className={`navbar-toggler ${isDarkMode ? 'navbar-toggler-dark' : ''}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -22,7 +28,8 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className={`collapse navbar-collapse ${isDarkMode ? 'navbar-collapse-dark' : ''}`} id="navbarSupportedContent">
+         
           <ul className="navbar-nav ms-auto"style={{ fontFamily: 'Poppins, sans-serif' }}>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/" >
@@ -85,6 +92,7 @@ const Navbar = () => {
                   Contacto
                 </a>
               </li>
+              <Botonooscuro/>
             </ul>
           </div>
         </div>

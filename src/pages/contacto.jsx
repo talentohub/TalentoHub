@@ -6,13 +6,22 @@ import logo from "../imagenes/TH.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importa FontAwesome
 import { faFacebook, faLinkedin, faInstagram, faGithub, faWhatsapp,faTiktok } from '@fortawesome/free-brands-svg-icons'; // Importa los iconos de redes sociales
 import "../css/formulario.css"
+import { useDarkMode } from "../context/DarkModeContext";
+
+
 const Contacto = () => {
+
+  const { isDarkMode } = useDarkMode();
+  const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1697645715/wepik-export-20231018112627zN6o_cajqf6.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1697838185/paz_armpwu.png'; // Reemplaza con la ruta correcta
+
+
+
   return (
     <>
+     <div className={isDarkMode ? 'dark-mode' : 'light-mode'}>
     <Navbar />
-    <CarrucelPaginas
-      imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697645715/wepik-export-20231018112627zN6o_cajqf6.png "
-    />
+    <CarrucelPaginas imagenClaro={imagenClaro} imagenOscuro={imagenOscuro} />
     <div className="container contenedorformulario mt-5">
       <div className="row">
         <div className="col-12 col-md-6 mb-5 mt-5">
@@ -45,6 +54,7 @@ const Contacto = () => {
       </div>
     </div>
     <Footer />
+    </div>
   </>
   );
 };

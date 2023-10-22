@@ -96,8 +96,9 @@ ul li a:focus:after {
 
   /* Estilo para el logo en pantalla pequeña */
   .logo-img {
-    width: 55px; /* Ajusta el tamaño del logo según tus necesidades en pantalla pequeña */
-    height: 50px; /* Ajusta la altura del logo según tus necesidades en pantalla pequeña */
+    width: 60px; /* Ajusta el tamaño del logo según tus necesidades en pantalla pequeña */
+    height: 55px; /* Ajusta la altura del logo según tus necesidades en pantalla pequeña */
     margin-left: 10px; /* Agrega un margen a la izquierda para mover el logo hacia la izquierda */
   }
 }
+
