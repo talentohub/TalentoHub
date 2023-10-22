@@ -4,7 +4,7 @@ import '../css/textanimation.css';
 const TextAnimation = () => {
   return (
     <div className="text-animation-container">
-      <div className="animated-text">
+      <div className="animated-text"style={{ fontFamily: "Poppins, sans-serif" }}>
       <span className="animated-word">Marketing</span>
         <span className="animated-word">DesarrolloWeb </span>
         <span className="animated-word">UX/UI</span>

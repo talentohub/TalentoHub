@@ -1,46 +1,37 @@
-.main-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; 
-    margin-bottom: 0;
-  }
-  
+
+.custom-heading {
+  text-align: start; /* Centrar el texto */
+  font-size: 80px; /* Tamaño de fuente más grande */
+  font-weight: bold; /* Texto en negritas */
+  position: relative; /* Establecer posición relativa para contener el subrayado */
+}
+
+.custom-heading::after {
+  text-align: start;
+  content: ""; /* Contenido vacío del pseudo-elemento */
+  position: absolute; /* Establecer posición absoluta para el subrayado */
+  bottom: -2px; /* Ajustar la distancia del subrayado desde la letra (ajusta según tu preferencia) */
+  left: 0; /* Iniciar el subrayado desde la izquierda */
+  width: 100%; /* Ancho completo del subrayado */
+  border-bottom: 20px solid #F0D422; /* Estilo de subrayado */
+}
+
+.centered-text {
+  text-align: start; /* Centrar el texto en dispositivos móviles */
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
   .custom-heading {
-    text-align: center; /* Centrar el texto */
-    font-size: 80px; /* Tamaño de fuente más grande */
-    font-weight: bold; /* Texto en negritas */
-    position: relative; /* Establecer posición relativa para contener el subrayado */
-  }
-  
-  .custom-heading::after {
-    content: ""; /* Contenido vacío del pseudo-elemento */
-    position: absolute; /* Establecer posición absoluta para el subrayado */
-    bottom: -2px; /* Ajustar la distancia del subrayado desde la letra (ajusta según tu preferencia) */
-    left: 0; /* Iniciar el subrayado desde la izquierda */
-    width: 100%; /* Ancho completo del subrayado */
-    border-bottom: 20px solid#F0D422; /* Estilo de subrayado */
-  }
-  .centered-text {
-    text-align:start; /* Justificar el texto */
-    text-align: center; /* Centrar la última línea si es necesario */
-   
+    font-size: 50px; /* Tamaño de fuente en pantallas más pequeñas */
   }
 
-  @media (max-width: 768px) {
-    .custom-heading {
-      font-size: 50px; /* Tamaño de fuente en pantallas más pequeñas */
-    }
-    @media (max-width: 768px) {
-      .custom-heading::after {
-        bottom: 3px; /* Ajustar la distancia del subrayado en pantallas más pequeñas */
-        border-bottom: 5px solid#F0D422; /* Estilo de subrayado */
-      }
-      .centered-text {
-       margin: 40px;
-       
-      }
-    }
-    
-     
-    
+  .custom-heading::after {
+    bottom: 3px; /* Ajustar la distancia del subrayado en pantallas más pequeñas */
+    border-bottom: 5px solid #F0D422; /* Estilo de subrayado */
   }
+
+  .centered-text {
+    margin: 40px; /* Añadir margen en dispositivos móviles */
+  }
+}
