@@ -10,10 +10,8 @@ import { useDarkMode } from "../context/DarkModeContext";
 const Paginasweb = () => {
 
   const { isDarkMode } = useDarkMode();
-  const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1697838185/tito_yh7flr.png'; // Reemplaza con la ruta correcta
-  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1697838185/paz_armpwu.png'; // Reemplaza con la ruta correcta
-  const imagenClaro2= 'https://res.cloudinary.com/dcwloh062/image/upload/v1697736375/wepik-export-20231019172050Mjn6_cwayqj.png'; // Reemplaza con la ruta correcta
-  const imagenOscuro2 = 'https://res.cloudinary.com/dcwloh062/image/upload/v1697838185/paz_armpwu.png'; // Reemplaza con la ruta correcta
+  const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698078511/3_nfnqmh.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698078507/4_z9yqad.png'; // Reemplaza con la ruta correcta
 
   return (
     <>
@@ -115,9 +113,7 @@ const Paginasweb = () => {
   </div>
 </div>
 </div>
-<CarruselContactanos
-        imagenClaro2={imagenClaro2} imagenOscuro2={imagenOscuro2}
-         />
+
       <Footer />
       </div>
     </>
