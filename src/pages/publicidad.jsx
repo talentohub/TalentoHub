@@ -13,8 +13,8 @@ import { useDarkMode } from "../context/DarkModeContext";
 const Publicidad = () => {
 
   const { isDarkMode } = useDarkMode();
-  const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698078507/5_yqf3e6.png'; // Reemplaza con la ruta correcta
-  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1697838185/paz_armpwu.png'; // Reemplaza con la ruta correcta
+  const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698079573/5_ec08wf.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698079574/6_ndbmyz.png'; // Reemplaza con la ruta correcta
   
   return (
     <>

@@ -10,8 +10,8 @@ import { useDarkMode } from "../context/DarkModeContext";
 const Paginasweb = () => {
 
   const { isDarkMode } = useDarkMode();
-  const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698078511/3_nfnqmh.png'; // Reemplaza con la ruta correcta
-  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698078507/4_z9yqad.png'; // Reemplaza con la ruta correcta
+  const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698079572/3_bcnv5w.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698079572/4_txa7es.png'; // Reemplaza con la ruta correcta
 
   return (
     <>

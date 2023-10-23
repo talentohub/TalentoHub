@@ -9,8 +9,8 @@ import { useDarkMode } from "../context/DarkModeContext";
 const Quienessomos = () => {
 
   const { isDarkMode } = useDarkMode();
-  const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698078511/2_jxulps.png'; // Reemplaza con la ruta correcta
-  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698078511/1_e0gbdf.png'; // Reemplaza con la ruta correcta
+  const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698079571/2_d4js4d.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698079570/1_nh68sv.png'; // Reemplaza con la ruta correcta
 
   return (
     <div className={isDarkMode ? 'dark-mode' : 'light-mode'}>

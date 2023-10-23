@@ -11,10 +11,10 @@ import "../css/modooscuro.css"
 
 const Inicio = () => {
   const { isDarkMode } = useDarkMode();
-  const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698073207/2_qfbvrf.png'; // Reemplaza con la ruta correcta
-  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698073209/1_javfqv.png'; // Reemplaza con la ruta correcta
-  const imagenClaro2= 'https://res.cloudinary.com/dcwloh062/image/upload/v1698073210/4_pbk3so.png'; // Reemplaza con la ruta correcta
-  const imagenOscuro2 = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698073208/3_xvwo6s.png'; // Reemplaza con la ruta correcta
+  const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698080312/2_y53pb3.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698080312/1_e2mwt7.png'; // Reemplaza con la ruta correcta
+  const imagenClaro2= 'https://res.cloudinary.com/dcwloh062/image/upload/v1698080643/4_sh2c7z.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro2 = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698080643/3_ue2gw6.png'; // Reemplaza con la ruta correcta
 
 
   return (
