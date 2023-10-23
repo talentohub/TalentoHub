@@ -17,6 +17,7 @@ const Navbar = () => {
               <img className="logo-img" src={TH} alt="Logo" />
             </div>
           </a>
+          
           <button
             className={`navbar-toggler ${isDarkMode ? 'navbar-toggler-dark' : ''}`}
             type="button"
@@ -92,9 +93,11 @@ const Navbar = () => {
                   Contacto
                 </a>
               </li>
-              <Botonooscuro/>
+              
             </ul>
+           
           </div>
+          <Botonooscuro/>
         </div>
       </nav>
     </>
