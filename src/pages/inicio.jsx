@@ -11,10 +11,10 @@ import "../css/modooscuro.css"
 
 const Inicio = () => {
   const { isDarkMode } = useDarkMode();
-  const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1697736311/wepik-export-20231019171222oGzG_husbkj.png'; // Reemplaza con la ruta correcta
-  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698029136/wepik-export-20231023013340COd3_x78qlv.png'; // Reemplaza con la ruta correcta
-  const imagenClaro2= 'https://res.cloudinary.com/dcwloh062/image/upload/v1697736375/wepik-export-20231019172050Mjn6_cwayqj.png'; // Reemplaza con la ruta correcta
-  const imagenOscuro2 = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698029848/wepik-export-20231023014242GD5d_r1ulpi.png'; // Reemplaza con la ruta correcta
+  const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698073207/2_qfbvrf.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698073209/1_javfqv.png'; // Reemplaza con la ruta correcta
+  const imagenClaro2= 'https://res.cloudinary.com/dcwloh062/image/upload/v1698073210/4_pbk3so.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro2 = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698073208/3_xvwo6s.png'; // Reemplaza con la ruta correcta
 
 
   return (
