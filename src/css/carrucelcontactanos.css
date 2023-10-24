@@ -30,7 +30,7 @@
   @media (max-width: 720px) {
     .botonmagico {
       margin: 0 auto; /* Centra horizontalmente el botón en pantallas pequeñas */
-      right: 72px; /* Elimina el desplazamiento hacia la derecha en pantallas pequeñas */
+      right: 78px; /* Elimina el desplazamiento hacia la derecha en pantallas pequeñas */
     }
   }
   
