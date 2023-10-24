@@ -6,7 +6,7 @@ import CardLargas from "../componentes/cardlargas";
 import Footer from "../componentes/footer";
 import CarrucelPaginas from "../componentes/carrucelpaginas";
 import { useDarkMode } from "../context/DarkModeContext";
-
+import TextAnimation from "../componentes/textanimation";
 
 const Publicidad = () => {
 
@@ -100,7 +100,7 @@ const Publicidad = () => {
   </div>
 </div>
 
-
+<TextAnimation />
       <Footer />
       </div>
     </>

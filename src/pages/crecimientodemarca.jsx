@@ -1,5 +1,5 @@
 import Navbar from "../componentes/navbar";
-
+import TextAnimation from "../componentes/textanimation";
 import "../css/paginaweb.css";
 import Cardconbotones from "../componentes/cardconbotones";
 import CardLargas from "../componentes/cardlargas";
@@ -84,7 +84,7 @@ const Crecimientodemarca = () => {
     </div>
   </div>
 </div>
-
+<TextAnimation />
       <Footer />
       </div>
     </>

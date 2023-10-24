@@ -4,6 +4,7 @@
   font-size: 80px; /* Tamaño de fuente más grande */
   font-weight: bold; /* Texto en negritas */
   position: relative; /* Establecer posición relativa para contener el subrayado */
+  margin-top: 50px;
 }
 
 .custom-heading::after {

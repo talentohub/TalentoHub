@@ -5,7 +5,7 @@ import Footer from "../componentes/footer";
 import CardLargas from "../componentes/cardlargas";
 import CarrucelPaginas from "../componentes/carrucelpaginas";
 import { useDarkMode } from "../context/DarkModeContext";
-
+import TextAnimation from "../componentes/textanimation";
 const Paginasweb = () => {
 
   const { isDarkMode } = useDarkMode();
@@ -112,7 +112,7 @@ const Paginasweb = () => {
   </div>
 </div>
 </div>
-
+<TextAnimation />
       <Footer />
       </div>
     </>

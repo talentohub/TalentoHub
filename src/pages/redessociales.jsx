@@ -5,6 +5,10 @@ import Cardconbotones from "../componentes/cardconbotones";
 import Footer from "../componentes/footer";
 import CarrucelPaginas from "../componentes/carrucelpaginas";
 import { useDarkMode } from "../context/DarkModeContext";
+import TextAnimation from "../componentes/textanimation";
+
+
+
 const Redessociales = () => {
 
   const { isDarkMode } = useDarkMode();
@@ -82,7 +86,7 @@ const Redessociales = () => {
     </div>
   </div>
 </div>
-
+<TextAnimation />
       <Footer />
       </div>
     </>

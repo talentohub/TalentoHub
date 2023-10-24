@@ -20,16 +20,11 @@ const Quienessomos = () => {
       <div className="main-content">
       <CarrucelPaginas imagenClaro={imagenClaro} imagenOscuro={imagenOscuro} />
       </div>
-
-      <TextAnimation />
-
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-6">
           <h1 className="custom-heading">TalentoHuB</h1>
           <h3 className="centered-text">Somos un Equipo Apasionado de <strong>desarrolladores</strong>, <strong>diseñadores</strong> y <strong>expertos en marketing</strong>. No solo creamos <strong>Soluciones innovadoras</strong>, también construimos conexiones significativas. Únete a nuestra comunidad, donde tu visión se convierte en nuestra inspiración.</h3>
-
-
           </div>
           <div className="col-12 col-md-6">
             <div className="row">
@@ -70,6 +65,7 @@ const Quienessomos = () => {
         </div>
       </div>
 
+      <TextAnimation />
       <Footer />
     </div>
       </div>

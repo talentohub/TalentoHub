@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importa Fon
 import { faFacebook, faLinkedin, faInstagram, faGithub, faWhatsapp,faTiktok } from '@fortawesome/free-brands-svg-icons'; // Importa los iconos de redes sociales
 import "../css/formulario.css"
 import { useDarkMode } from "../context/DarkModeContext";
-
+import TextAnimation from "../componentes/textanimation";
 
 const Contacto = () => {
 
@@ -53,6 +53,7 @@ const Contacto = () => {
         </div>
       </div>
     </div>
+    <TextAnimation />
     <Footer />
     </div>
   </>

@@ -6,6 +6,7 @@ import CarruselContactanos from "../componentes/carruselContactanos";
 import "../css/inicio.css";
 import CarrucelPaginas from "../componentes/carrucelpaginas";
 import { useDarkMode } from "../context/DarkModeContext";
+import TextAnimation from "../componentes/textanimation";
 
 import "../css/modooscuro.css"
 
@@ -86,6 +87,7 @@ const Inicio = () => {
         <CarruselContactanos
         imagenClaro2={imagenClaro2} imagenOscuro2={imagenOscuro2}
          />
+           <TextAnimation />
         <Footer />
       </div>
    
