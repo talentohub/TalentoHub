@@ -18,14 +18,15 @@
   position: relative;
   z-index: 1002; /* Un valor más alto que el del navbar para que quede por encima */
 }
-/* CSS para modificar el texto del navbar */
-.navbar .navbar-nav .nav-link {
-  color: #000000; /* Cambia el color del texto a rojo */
- 
-  
+.light-mode .navbar-nav .nav-link {
+  color: #000; /* Cambia el color del texto en modo claro */
 }
 
+/* Estilos para el modo oscuro */
+.dark-mode .navbar-nav .nav-link {
+  color: #fff; /* Cambia el color del texto en modo oscuro */
+}
 .navbar-transparent {
   background-color: transparent; /* Fondo transparente */
-  color: #040404; /* Color del texto en el navbar */
+  
 }
