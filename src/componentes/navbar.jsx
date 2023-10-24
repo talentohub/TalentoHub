@@ -10,10 +10,10 @@ const Navbar = () => {
  
   return (
     <>
-        <nav className="navbar navbar-expand-lg">
+      <nav className={`navbar navbar-expand-lg ${isDarkMode ? 'dark-mode' : 'light-mode'} navbar-transparent`}>
         <div className="container-fluid">
           <a className="navbar-brand" href="inicio">
-            <div className="logo">
+            <div className={`logo ${isDarkMode ? 'invert-image' : ''}`}>
               <img className="logo-img" src={TH} alt="Logo" />
             </div>
           </a>
@@ -95,9 +95,9 @@ const Navbar = () => {
               </li>
               
             </ul>
-           
+            <Botonooscuro/>
           </div>
-          <Botonooscuro/>
+          
         </div>
       </nav>
     </>

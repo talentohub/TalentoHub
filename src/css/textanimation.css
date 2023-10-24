@@ -1,10 +1,10 @@
-/* textanimation2.css */
+/* Estilos para el modo claro por defecto */
 .text-animation-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   height: 120px;
-  background-color: rgba(243, 243, 243, 0.201);
+  background-color: rgba(255, 255, 255, 0.201);
   overflow: hidden;
   position: relative;
   border: 0;
@@ -13,11 +13,11 @@
 
 .animated-text {
   font-size: 40px;
-  color: rgba(255, 252, 72, 0.008);
+  color: rgba(138, 26, 26, 0.008);
   -webkit-text-stroke: 2px #000000;
   position: absolute;
   white-space: nowrap;
-  animation: scroll-in 120s linear infinite; /* Reduje la duración de la animación a 60 segundos */
+  animation: scroll-in 100s linear infinite; 
   transform: translateX(100%);
 }
 
@@ -31,7 +31,6 @@
   }
 }
 
-
 @keyframes scroll-in {
   0% {
     transform: translateX(100%); /* Inicia desde la derecha */
@@ -39,4 +38,14 @@
   100% {
     transform: translateX(-100%); /* Termina en la izquierda */
   }
+}
+
+/* Estilos para el modo oscuro */
+.dark-mode .text-animation-container {
+  background-color: #000; /* Cambia el fondo en modo oscuro */
+}
+
+.dark-mode .animated-text {
+  color: #fff; /* Cambia el color del texto en modo oscuro (blanco) */
+  -webkit-text-stroke: 1px #fff; /* Cambia el color del borde en modo oscuro (blanco) */
 }

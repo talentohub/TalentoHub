@@ -51,11 +51,11 @@
   background: black;
   color: white;
   border: 1px solid white;
-  box-shadow: 0 6px 2px rgba(248, 247, 247, 0.948);
+  box-shadow: 0 6px 2px rgba(93, 93, 93, 0.948);
 }
 
 .dark-mode .card:hover {
-  background-color: rgba(216, 216, 216, 0.585);
+  background-color: rgba(239, 239, 239, 0.585);
   color:black
 }
 /* Estilo del botón de WhatsApp en modo oscuro */

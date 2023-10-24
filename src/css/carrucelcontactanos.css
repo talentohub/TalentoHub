@@ -12,3 +12,19 @@
      
     }
   }
+  .botonmagico {
+    background-color: #F0D422;
+    cursor: pointer;
+    border: none;
+    padding: 20px 30px; /* Ajusta el tamaño del botón aquí para pantallas grandes */
+    color: rgb(0, 0, 0);
+    font-size: 20px; /* Ajusta el tamaño del texto aquí para pantallas grandes */
+    font-weight: bold;
+    position: relative;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Poppins, sans-serif';
+    margin: 0 auto; /* Centra horizontalmente el botón */
+    top: 110px;
+    left: 110px;
+  }
