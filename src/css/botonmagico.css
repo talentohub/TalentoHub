@@ -1,20 +1,4 @@
-/* Estilos para el botón mágico en pantallas grandes */
-.botonmagico {
-  background-color: #F0D422;
-  cursor: pointer;
-  border: none;
-  padding: 20px 30px; /* Ajusta el tamaño del botón aquí para pantallas grandes */
-  color: rgb(0, 0, 0);
-  font-size: 20px; /* Ajusta el tamaño del texto aquí para pantallas grandes */
-  font-weight: bold;
-  position: relative;
-  border-radius: 10px;
-  text-decoration: none;
-  font-family: 'Poppins, sans-serif';
-  top: 110px;
-  left: 110px;
-  
-}
+
 
 .botonmagico::before {
   content: "";
@@ -43,24 +27,3 @@
   }
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
-  .botonmagico {
-    padding: 20px 40px;
-    font-size: 18px;
-    position: relative;
-    top: 55px;
-    left: 70px;
-   
-  }
-}
-
-/* Estilos para el botón mágico en pantallas pequeñas */
-@media (max-width: 720px) {
-  .botonmagico {
-    padding: 8px 12px;
-    font-size: 10px;
-    position: relative;
-    top: 23px;
-    left: 10px;
-  }
-}

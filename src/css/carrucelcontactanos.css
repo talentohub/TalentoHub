@@ -24,7 +24,13 @@
     border-radius: 10px;
     text-decoration: none;
     font-family: 'Poppins, sans-serif';
-    margin: 0 auto; /* Centra horizontalmente el botón */
-    top: 110px;
-    left: 110px;
+    margin: 0 ; /* Centra horizontalmente el botón */
+   right:  33px;
   }
+  @media (max-width: 720px) {
+    .botonmagico {
+      margin: 0 auto; /* Centra horizontalmente el botón en pantallas pequeñas */
+      right: 72px; /* Elimina el desplazamiento hacia la derecha en pantallas pequeñas */
+    }
+  }
+  

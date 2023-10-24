@@ -75,8 +75,8 @@
 }
 .navbar-toggler-dark {
   background-color: #9e9e9e; /* Cambia el color de fondo en modo oscuro */
-  border: 1px solid #b5b5b5; /* Cambia el borde en modo oscuro */
-  color: #ffffff; /* Cambia el color del icono en modo oscuro */
+  border: 1px solid #6b6b6b; /* Cambia el borde en modo oscuro */
+  color: #060606; /* Cambia el color del icono en modo oscuro */
   /* Agrega otros estilos deseados en modo oscuro */
 }
 /* Estilos para el menú desplegable en modo oscuro */
