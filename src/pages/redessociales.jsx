@@ -24,7 +24,7 @@ const Redessociales = () => {
       <div className="main-content">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-10 col-md-4">
+            <div className="col-11 col-md-4">
               <Cardconbotones
                 imagen={
                   "https://res.cloudinary.com/dcwloh062/image/upload/v1697404365/Online_world-bro_okywew.png"
@@ -42,8 +42,8 @@ const Redessociales = () => {
                 referencia={"http://api.whatsapp.com/send?phone=56945111875"}
               />
             </div>
-            <div className="col-10 col-md-4">
-              <Cardconbotones
+            <div className="col-11 col-md-4">
+               <Cardconbotones
                 imagen={
                   "https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Social_Growth-cuate_odloga.png"
                 }
@@ -55,7 +55,7 @@ const Redessociales = () => {
                   "• Interacción activa con seguidores, gestión de comentarios y mensajes directos ",
                   "• Gestión de anuncios en redes sociales ",
                   "• Informe detallado de rendimiento con recomendaciones para la mejora continua ",
-                  // Puedes agregar más información si es necesario
+                 
                 ]}
                 botoninfo={"WhatsApp"}
                 referencia={"http://api.whatsapp.com/send?phone=56945111875"}
