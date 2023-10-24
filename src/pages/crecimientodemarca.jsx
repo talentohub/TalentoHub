@@ -5,14 +5,13 @@ import Cardconbotones from "../componentes/cardconbotones";
 import CardLargas from "../componentes/cardlargas";
 import Footer from "../componentes/footer";
 import CarrucelPaginas from "../componentes/carrucelpaginas";
-import CarruselContactanos from "../componentes/carruselContactanos";
 import { useDarkMode } from "../context/DarkModeContext";
 
 const Crecimientodemarca = () => {
 
   const { isDarkMode } = useDarkMode();
   const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698079575/8_m37z5j.png'; // Reemplaza con la ruta correcta
-  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698079574/7_hgcczq.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro = 'https://res.cloudinary.com/diiuqfujg/image/upload/v1698117265/7_nuyml1.png'; // Reemplaza con la ruta correcta
   
   return (
     <>

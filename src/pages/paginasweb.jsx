@@ -1,7 +1,6 @@
 import Navbar from "../componentes/navbar";
 import "../css/paginaweb.css";
 import Cardconbotones from "../componentes/cardconbotones";
-import CarruselContactanos from "../componentes/carruselContactanos";
 import Footer from "../componentes/footer";
 import CardLargas from "../componentes/cardlargas";
 import CarrucelPaginas from "../componentes/carrucelpaginas";
@@ -11,7 +10,7 @@ const Paginasweb = () => {
 
   const { isDarkMode } = useDarkMode();
   const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698079572/3_bcnv5w.png'; // Reemplaza con la ruta correcta
-  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698079572/4_txa7es.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro = 'https://res.cloudinary.com/diiuqfujg/image/upload/v1698117263/4_m2ixbp.png'; // Reemplaza con la ruta correcta
 
   return (
     <>

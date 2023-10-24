@@ -2,7 +2,6 @@ import Navbar from "../componentes/navbar";
 import CardLargas from "../componentes/cardlargas";
 import "../css/paginaweb.css";
 import Cardconbotones from "../componentes/cardconbotones";
-import CarruselContactanos from "../componentes/carruselContactanos";
 import Footer from "../componentes/footer";
 import CarrucelPaginas from "../componentes/carrucelpaginas";
 import { useDarkMode } from "../context/DarkModeContext";
@@ -10,7 +9,7 @@ const Redessociales = () => {
 
   const { isDarkMode } = useDarkMode();
   const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698079576/9_a8c2an.png'; // Reemplaza con la ruta correcta
-  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698079576/10_whz6yj.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro = 'https://res.cloudinary.com/diiuqfujg/image/upload/v1698152724/10_kxutky.png'; // Reemplaza con la ruta correcta
  
 
   return (

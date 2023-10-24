@@ -13,7 +13,7 @@ const Contacto = () => {
 
   const { isDarkMode } = useDarkMode();
   const imagenClaro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698079578/12_iwrqzk.png'; // Reemplaza con la ruta correcta
-  const imagenOscuro = 'https://res.cloudinary.com/dcwloh062/image/upload/v1698079577/11_cptixl.png'; // Reemplaza con la ruta correcta
+  const imagenOscuro = 'https://res.cloudinary.com/diiuqfujg/image/upload/v1698117264/11_z2fatj.png'; // Reemplaza con la ruta correcta
 
 
 
