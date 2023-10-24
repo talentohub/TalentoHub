@@ -24,10 +24,7 @@
  
   
 }
-.dark-mode .navbar .navbar-nav .nav-link {
-  color: #FFF; /* Color de texto en modo oscuro (blanco) */
- 
-}
+
 .navbar-transparent {
   background-color: transparent; /* Fondo transparente */
   color: #040404; /* Color del texto en el navbar */
