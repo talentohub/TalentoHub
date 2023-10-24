@@ -30,3 +30,14 @@
   background-color: transparent; /* Fondo transparente */
   
 }
+
+/* Estilos para el menú desplegable en pantalla pequeña y modo oscuro */
+@media (max-width: 768px) {
+  .dark-mode .navbar-collapse {
+    background-color: #333; /* Cambia el fondo en modo oscuro */
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #fff; /* Cambia el color del borde en modo oscuro (blanco) */
+    /* Otros estilos específicos para el menú desplegable en modo oscuro y pantalla pequeña */
+  }
+}
